@@ -1,0 +1,138 @@
+* {
+    font-family: Arial;
+}
+
+.tab-bar {
+    background-color: #007bff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    border-radius: 5px;
+}
+
+.tab-button {
+    background-color: #ff5722;
+    width: 10%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.tab-button:hover {
+    background-color: #ff5722;
+}
+
+.tab-content {
+    display: none;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: #333;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+code {
+    display: block;
+    background-color: #282c34;
+    color: #abb2bf;
+    font-family: Monaco, monospace;
+    padding: 20px;
+    border: 1px solid #abb2bf;
+    border-radius: 5px;
+    overflow-x: auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+code pre {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.code .comment {
+    color: #5c6370;
+}
+
+.code .keyword {
+    color: #c678dd;
+}
+
+.code .identifier {
+    color: #e5c07b;
+}
+
+.code .number {
+    color: #d19a66;
+}
+
+code::before {
+    content: '...';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px;
+    background-color: #abb2bf;
+    color: #282c34;
+    font-size: 20px;
+    line-height: 1;
+    border-bottom-left-radius: 5px;
+    cursor: pointer;
+}
+
+.content-block {
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.content-block h3 {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0px;
+}
+
+.content-block p {
+    padding: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th {
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #007bff;
+}
+
+tr {
+    border: 1px solid #ddd;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
